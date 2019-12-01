@@ -1,0 +1,39 @@
+.root {
+-fx-background-color: #FFFFFF;
+}
+
+/* Button Styles */
+.button, .button-alternative {
+    -fx-background-radius: 0;
+}
+
+.button {
+    -fx-background-color: #3c3f41;
+}
+
+.button-alternative {
+    -fx-background-color: #FFFFFF;
+}
+
+.selected {
+    -fx-border-color: rgba(227, 224, 0, 0.78);
+    -fx-border-width: 4px;
+}
+
+.canMove {
+    -fx-background-color: rgba(19, 166, 38, 0.53);
+}
+
+.canAttack {
+    -fx-background-color: rgba(255, 0, 0, 0.61);
+}
+
+/* Labels */
+.label{
+    -fx-font-size: 20;
+}
+
+.alertLabel {
+    -fx-background-color: #FFFFFF;
+    -fx-text-inner-color: #3c3f41;
+}

@@ -1,0 +1,4 @@
+The winner was: white EndTime: 2018-06-25T13:59:28.825025500+02:00[Europe/Berlin]
+The winner was: white EndTime: 2018-06-25T14:14:29.825799700+02:00[Europe/Berlin]
+The winner was: white EndTime: 2018-06-25T14:15:02.847524+02:00[Europe/Berlin]
+The winner was: black EndTime: 2018-06-25T14:15:26.912436500+02:00[Europe/Berlin]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import view.gui.Board?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="borderPane" maxHeight="800" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.121"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+       <top>
+           <MenuBar prefHeight="25.0" prefWidth="804.0">
+               <Menu mnemonicParsing="false" text="Game">
+                   <MenuItem fx:id="newGame" mnemonicParsing="false" onAction="#newGame" text="New Game"/>
+                   <MenuItem fx:id="spectator" mnemonicParsing="false" onAction="#spectator" text="Spectator"/>
+                   <MenuItem fx:id="previousWinners" mnemonicParsing="false" onAction="#showPreviousWinners" text="Previous Winners"/>
+               </Menu>
+           </MenuBar>
+       </top>
+            <center>
+                <HBox>
+                <Board fx:id="chessboard">
+                </Board>
+                  <VBox spacing="225">
+                      <Label fx:id="turn"/>
+                      <Label fx:id="alert"/>
+                  </VBox>
+                </HBox>
+            </center>
+        </BorderPane>
